@@ -1,0 +1,34 @@
+{
+    "name": "minimalistik-theme",
+    "displayName": "Minimalistik ",
+    "description": "A theme for python and kivy",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+	"publisher": "LeonardoKist",
+	"author": {
+		"name": "Leonardo Kist",
+		"url": "https://github.com/leokist/Minimalistik-Theme.git",
+		"type": "git"
+	},
+    "keywords": [
+        "theme",
+        "dark theme",
+        "minimalistik",
+        "mini",
+        "orange theme"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Minimalistik",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Minimalistik-color-theme.json"
+            }
+        ]
+    }
+}
